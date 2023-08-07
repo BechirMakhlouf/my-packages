@@ -17,6 +17,9 @@ PACMAN_PACKAGES_LIST=(
   'waybar'
   'tldr'
   'zsh'
+  'sheldon'
+  'code'
+  'gimp'
   'nvim'
   'yes'
   'exa'
@@ -27,6 +30,7 @@ PACMAN_PACKAGES_LIST=(
   'tmux'
   'noto-fonts'
   'lxappearance'
+  'qt5ct'
   'discord'
   'vlc'
   'nodejs'
@@ -41,6 +45,8 @@ PACMAN_PACKAGES_LIST=(
   'runuser'
   'efibootmgr'
   'os-prober'
+  'bluez'
+  'bluez-utils'
   'ssh'
   'feh'
   'fontconfig'
@@ -57,12 +63,21 @@ PACMAN_PACKAGES_LIST=(
   'wofi'
   'btop'
   'htop'
+  'ttf-go-nerd'
+# dev related:
+  'nodejs'
+  'npm'
+  'python3'
+  'python-pip'
+  'go'
 )
 
 AUR_PACKAGES_LIST=(
   'ly'
   'fastfetch'
   'nerdfetch'
+  'grimshot'
+  'postman'
   'spotify-adblock'
   'nerd-fonts-inter'
   'dracula-gtk-theme'
@@ -73,8 +88,10 @@ AUR_PACKAGES_LIST=(
 
 SERVICES_TO_ENABLE=(
   'NetworkManager'
+  'bluetooth'
   'ly'
 )
+
 pacman -Syyu --noconfirm
 
 for i in "${PACMAN_PACKAGES_LIST[@]}"; do
