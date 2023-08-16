@@ -11,7 +11,6 @@ PACMAN_PACKAGES_LIST=(
   'chromium'
   'firefox'
   'obsidian'
-  'qbittorrent'
   'tldr'
   'man'
   'waybar'
