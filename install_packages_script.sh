@@ -68,6 +68,7 @@ PACMAN_PACKAGES_LIST=(
 # dev related:
   'nodejs'
   'npm'
+  'bun'
   'python3'
   'python-pip'
   'go'
