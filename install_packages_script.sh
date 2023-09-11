@@ -65,6 +65,7 @@ PACMAN_PACKAGES_LIST=(
   'btop'
   'htop'
   'ttf-go-nerd'
+  'test'
 # dev related:
   'nodejs'
   'npm'
