@@ -1,2 +1,2 @@
 # my-packages
-packages I usually install on new arch installs 
+packages I usually install on new arch installs
